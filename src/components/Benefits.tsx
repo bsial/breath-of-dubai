@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
-import brainIcon from "@/assets/brain-icon.jpg";
-import jetlagIcon from "@/assets/jetlag-icon.jpg";
-import energyIcon from "@/assets/energy-icon.jpg";
+import brainIcon from "@/assets/brain-abstract.jpg";
+import jetlagIcon from "@/assets/jetlag-abstract.jpg";
+import energyIcon from "@/assets/energy-abstract.jpg";
 import { Zap, Brain, Plane, Heart, Shield, Sparkles } from "lucide-react";
 
 const Benefits = () => {
