@@ -2,24 +2,24 @@ import { Card } from "@/components/ui/card";
 import brainIcon from "@/assets/brain-abstract.jpg";
 import jetlagIcon from "@/assets/jetlag-abstract.jpg";
 import energyIcon from "@/assets/energy-abstract.jpg";
-import { Wind, Droplets, Flame, Heart, Shield, Sparkles } from "lucide-react";
+import { Brain, Plane, Zap, Heart, Shield, Sparkles } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
     {
-      icon: Wind,
+      icon: Brain,
       image: brainIcon,
       title: "Enhanced Cognitive Function",
       description: "Boost mental clarity, focus, and memory with increased oxygen flow to the brain. Perfect for professionals and students seeking peak performance.",
     },
     {
-      icon: Droplets,
+      icon: Plane,
       image: jetlagIcon,
       title: "Rapid Jet Lag Relief",
       description: "Combat travel fatigue and adjust to new time zones faster. Ideal for frequent flyers arriving in Dubai or departing on business trips.",
     },
     {
-      icon: Flame,
+      icon: Zap,
       image: energyIcon,
       title: "Increased Energy & Vitality",
       description: "Feel rejuvenated and energized naturally. Oxygen therapy helps reduce fatigue and promotes overall wellness and recovery.",

@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 38 35% 90%;
+    --background: 40 30% 88%;
     --foreground: 160 50% 20%;
 
     --card: 40 50% 95%;
@@ -122,6 +122,11 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background-image: 
+      repeating-linear-gradient(0deg, transparent, transparent 2px, hsl(var(--background)) 2px, hsl(var(--background)) 4px),
+      repeating-linear-gradient(90deg, transparent, transparent 2px, hsl(var(--background)) 2px, hsl(var(--background)) 4px);
+    background-size: 100% 100%, 100% 100%;
+    background-blend-mode: overlay;
   }
 }
 
