@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import brainIcon from "@/assets/brain-abstract.jpg";
 import jetlagIcon from "@/assets/jetlag-abstract.jpg";
 import energyIcon from "@/assets/energy-abstract.jpg";
-import { Brain, Plane, Zap, Heart, Shield, Sparkles } from "lucide-react";
+import { Brain, Plane, Sparkles, Heart, Shield } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
@@ -19,10 +19,10 @@ const Benefits = () => {
       description: "Combat travel fatigue and adjust to new time zones faster. Ideal for frequent flyers arriving in Dubai or departing on business trips.",
     },
     {
-      icon: Zap,
+      icon: Sparkles,
       image: energyIcon,
-      title: "Increased Energy & Vitality",
-      description: "Feel rejuvenated and energized naturally. Oxygen therapy helps reduce fatigue and promotes overall wellness and recovery.",
+      title: "Enhanced Skin Health & Radiance",
+      description: "Experience improved skin tone, texture, and natural glow. Increased oxygen circulation promotes collagen production, reduces fine lines, and helps your skin appear more youthful and radiant. Perfect for maintaining a healthy, vibrant complexion in Dubai's climate.",
     },
   ];
 
