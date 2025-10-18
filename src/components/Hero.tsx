@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-mana.jpg";
+import heroVideo from "@/assets/hero-video.mp4";
 
 const Hero = () => {
   const scrollToAppointment = () => {
@@ -8,22 +8,25 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src={heroVideo} type="video/mp4" />
+      </video>
+      
+      <div className="absolute inset-0 bg-background/30 z-[1]" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-7xl md:text-9xl font-bold mb-4 text-primary animate-fade-in">
             Mana.
           </h1>
-          <p className="text-2xl md:text-3xl mb-12 text-foreground font-medium">
-            Dubai's first mobile oxygen therapy service
+          <p className="text-2xl md:text-3xl mb-12 text-foreground font-medium animate-fade-in">
+            Dubai's pioneer mobile pressurized oxygen therapy
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
