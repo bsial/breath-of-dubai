@@ -23,7 +23,7 @@ const Founder = () => {
               
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-bold mb-4 text-foreground">
-                  Sarah Al-Mansouri
+                  Bareera Sial
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
@@ -47,11 +47,11 @@ const Founder = () => {
                 <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                   <Button variant="outline" className="gap-2">
                     <Mail className="w-4 h-4" />
-                    sarah@mana-dubai.com
+                    info@manapods.com
                   </Button>
                   <Button variant="outline" className="gap-2">
                     <Phone className="w-4 h-4" />
-                    +971 50 123 4567
+                    +971 50 996 5171
                   </Button>
                 </div>
               </div>

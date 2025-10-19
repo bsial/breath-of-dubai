@@ -33,7 +33,7 @@ const Hero = () => {
             Mana.
           </h1>
           <p className="text-2xl md:text-3xl mb-12 text-foreground font-medium">
-            Pressurized Oxygen Therapy, brought directly to your home.
+            Pressurized Oxygen Therapy, brought directly to your doorstep.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

@@ -7,16 +7,16 @@ import { Brain, Plane, Sparkles, Heart, Shield } from "lucide-react";
 const Benefits = () => {
   const benefits = [
     {
-      icon: Brain,
-      image: brainIcon,
-      title: "Enhanced Cognitive Function",
-      description: "Boost mental clarity, focus, and memory with increased oxygen flow to the brain. Perfect for professionals and students seeking peak performance.",
-    },
-    {
       icon: Plane,
       image: jetlagIcon,
       title: "Rapid Jet Lag Relief",
       description: "Combat travel fatigue and adjust to new time zones faster. Ideal for frequent flyers arriving in Dubai or departing on business trips.",
+    },
+    {
+      icon: Brain,
+      image: brainIcon,
+      title: "Enhanced Cognitive Function",
+      description: "Boost mental clarity, focus, and memory with increased oxygen flow to the brain. Perfect for professionals and students seeking peak performance.",
     },
     {
       icon: Sparkles,
@@ -65,22 +65,16 @@ const Benefits = () => {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <Card className="p-8 bg-card border border-border">
-            <h3 className="text-2xl font-bold mb-6 text-center text-foreground">
-              Additional Benefits
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              {additionalBenefits.map((item) => (
-                <div key={item.text} className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-primary" />
-                  </div>
-                  <p className="text-foreground font-medium">{item.text}</p>
-                </div>
-              ))}
-            </div>
-          </Card>
+        <div className="mt-12 text-center">
+          <p className="text-sm text-muted-foreground mb-3">Additional benefits include:</p>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            {additionalBenefits.map((item) => (
+              <div key={item.text} className="flex items-center gap-2 text-sm text-foreground">
+                <item.icon className="w-4 h-4 text-primary flex-shrink-0" />
+                <span>{item.text}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
