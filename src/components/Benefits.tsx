@@ -16,7 +16,7 @@ const Benefits = () => {
       icon: Brain,
       image: brainIcon,
       title: "Enhanced Cognitive Function",
-      description: "Boost mental clarity, focus, and memory with increased oxygen flow to the brain. Perfect for professionals and students seeking peak performance.",
+      description: "Sharpen mental clarity, decision-making, and focus with increased oxygen flow to the brain. Ideal for business executives navigating high-stakes environments and demanding schedules.",
     },
     {
       icon: Sparkles,
@@ -39,9 +39,6 @@ const Benefits = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
             The Power of Pure Oxygen
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover how oxygen therapy can transform your wellness and performance
-          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
